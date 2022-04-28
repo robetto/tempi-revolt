@@ -7,7 +7,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root{
+  --primary: #13ba61;
+  --secondary: #4e4e4e;
+  --error: #ff4a4a;
 }
+
+.progress-bar {
+  height: 5px; width: 300px; margin: 0 auto; display: flex; align-items: center; justify-content: flex-start ;
+}
+.progress-bar span { height: 5px; background-color:var(--primary); width: 0;}
