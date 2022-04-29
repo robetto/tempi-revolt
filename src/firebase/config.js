@@ -7,7 +7,7 @@ import 'firebase/firestore';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAwyaRuvPUCFs2NSfm8_VNnGs5WJXQefHQ",
+  apiKey: process.env.REACT_APP_FIREBASE_KEY,
   authDomain: "tempi-revolt.firebaseapp.com",
   projectId: "tempi-revolt",
   storageBucket: "tempi-revolt.appspot.com",

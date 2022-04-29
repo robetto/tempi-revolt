@@ -17,3 +17,8 @@ body {
   height: 5px; width: 300px; margin: 0 auto; display: flex; align-items: center; justify-content: flex-start ;
 }
 .progress-bar span { height: 5px; background-color:var(--primary); width: 0;}
+
+.App { width: 300px; margin: 0 auto; padding: 20px;}
+.form-error { font-size: 14px; letter-spacing: 1px; color: red; margin-top: 5px;}
+.form-input { margin-bottom: 10px; }
+input { padding: 10px;;}
